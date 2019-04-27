@@ -92,7 +92,9 @@ hello-minikube-3383150820-vctvh   1/1       Running   0          13s
 We can see that the pod is now Running and we will now be able to curl it:
 
 ```
-curl $(minikube service hello-minikube --url)
+
+Get URL from this command:curl minikube service hello-minikube
+add URL inside the curl---> curl $(minikube service hello-minikube --url <URL>)
 ```
 ```
 
